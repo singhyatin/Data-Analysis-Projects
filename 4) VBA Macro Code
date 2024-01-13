@@ -1,0 +1,14 @@
+'Below is a Macro written in VBA that rounds each numeric value in a worksheet to two decimal places.
+'You can try it on one of your own files or download a sample file from the following link. https://docs.google.com/spreadsheets/d/1veGz1YL4fkcyZbH3gqzgcisBosCoT08F/edit?usp=sharing&ouid=108818556327145993257&rtpof=true&sd=true
+
+Sub Rounding_two()
+    For i = 1 To Range("A1").CurrentRegion.Cells.Count
+        If IsNumeric(Range("A1").CurrentRegion.Cells(i)) Then   ' Checking to see if the cell contains a numeric value.
+            Range("A1").CurrentRegion.Cells(i) = Round(Range("A1").CurrentRegion.Cells(i), 2)   ' If true, then round the numeric value to two decimal places.
+        End If
+    Next i
+End Sub
+
+
+
+
