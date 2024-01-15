@@ -22,7 +22,7 @@ Function Profit_PU(Name)
         End If
     Next i
 
-Profit_PU = Total_Profit / Total_Quantity    ' Dividing the total profit of the state by the total quantity sold for that state.
+    Profit_PU = Total_Profit / Total_Quantity    ' Dividing the total profit of the state by the total quantity sold for that state.
         
 End Function
 
