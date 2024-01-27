@@ -1,5 +1,5 @@
 # I will be writing queries for the Sakila database that can be found in MySQL 8.0.35.
-# The queries will be using 1) Case Expression, 2) Window Function, 3) Inner Join, 4) Subquery, 5) Outer Join
+# The queries will be using 1) Case Expression, 2) Window Function, 3) Inner Join, 4) Subquery, 5) Outer Join.
 	
 # The query below will find all customers that can be considered to be fans for action category films as they have rented more than 4 of such films.
 # I will be using conditional logic (Searched Case Expression) along with inner joins and an aggregate function (count).
